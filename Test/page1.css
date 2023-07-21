@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#list a:hover {
+    color: #d77e78;
+}
+header{
+    background-image:url("./Pictures/bannerimg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quote h1{
+    line-height: 10vh;
+    color: white;
+    font-size: 60px;
+    font-family: 'Permanent Marker', cursive;
+}
+.quote button{
+   padding:2% 4%; 
+   color: white;
+   font-weight: bold;
+   background-color:transparent;
+   border: 2px solid white;
+   border-radius: 8px;
+   margin-top: 10%;
+
+}
+mark{
+    
+    color: #d77e78;
+}
+span{
+    color: #f8847c;
+}
+.quote button:hover{
+    box-shadow: 10px 3px 50px #d77e78;
+    background-color: rgba(255, 126, 120,.5);
+    transition: .3s;
+    color:#112951;
+}
+
+.rows{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    flex-wrap:wrap;
+}
+.cards a{
+    text-align: center;
+    background-color: #d77e78;
+    border: 0;
+}
+.cards a:hover{
+    background-color:#f8847c ;
+}
+.formore button{
+    padding:.5% 1%; 
+   color: white;
+   font-weight: bold;
+   background-color:#d77e78;
+   border: 2px solid white;
+   border-radius: 8px;
+   
+}
+.formore{
+    text-align: center;
+    margin-bottom: 3%;
+}
+.formore button:hover{
+    background-color: #f8847c;
+}
+.cards{
+    padding-bottom: 3%;
+}
+.featured{
+   margin: 2% 2%;
+   padding: 2% 3% 4% 3%;
+   background-color: #e7cfce;
+   border-radius: 10px;
+    text-align: center;
+}
+.fea-title h1{
+    font-family: 'Kaushan Script', cursive;
+    color: #A4423B;
+    padding-bottom: 2%;
+    text-decoration: underline #cbcccd;
+}
+.backc{
+    background-color: rgba(4,10,64,.3);
+    border-radius: 15px 50px 30px;
+    padding: 3%;
+}
+.historical{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+#his-item1{
+    width: 17rem;
+    height: 45vh;
+    background-image: url("./Pictures/qutubMinar.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+#his-item2{
+    width: 17rem;
+    height: 45vh;
+    background-image: url("./Pictures/AmberPalace.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+#his-item3{
+    width: 17rem;
+    height: 45vh;
+    background-image: url("./Pictures/konakTemple.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+#his-item4{
+    width: 17rem;
+    height: 45vh;
+    background-image: url("./Pictures/GatewayofIndia.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+#his-item5{
+    width: 17rem;
+    height: 45vh;
+    background-image: url("./Pictures/Victoria\ Memorial.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 5%;
+}
+.details{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: .5s;    
+    overflow: hidden;
+    
+}
+.details h3{
+    font-size: 20px;
+    color: white;
+    padding-top: 30%;
+    text-decoration: underline solid .5px #f8847c;
+}
+.details p{
+    color:white;
+    padding-top: 3%;
+    overflow: hidden;
+    font-size: 13px;
+}
+
+.details:hover{
+    opacity: 1;
+    background-color:rgba(4,10,64,.6);
+}
+.details button{
+    width: 50%;
+     padding: 1% 0;
+   color: white;
+   font-weight: bold;
+   background-color:#d77e78;
+   
+   border-radius: 8px;
+   
+}
+.details button:hover{
+    background-color:#f8847c;
+}
+.his-title{
+    margin-top: 3%;
+    font-family: 'Kaushan Script', cursive;
+    color: #A4423B;
+    text-decoration: underline #cbcccd;
+}
+.iframe-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+.iframe-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.ser-title{
+    font-family: 'Kaushan Script', cursive;
+    color: #A4423B;
+    text-decoration: underline #cbcccd;
+}
+.img1 img{
+    width: 20%;
+}
+.img1 a{
+    color: black;
+    text-decoration: none;
+}
+
+.row a{
+    color: white;
+    text-decoration: none;
+}
+.row ul{
+    list-style: none;
+}
+.row h3{
+    color: #f8847c;
+}
+.row i{
+    font-size: 40px;
+    padding: 0 3%;
+    color: white;
+}
+footer{
+    background-color: rgba(4,10,64,1);
+}
+.row img{
+    width: 40%;
+}
+.copyright {
+    color: white;
+    text-align: center;
+    background-color: rgba(4,10,64,1);
+}
