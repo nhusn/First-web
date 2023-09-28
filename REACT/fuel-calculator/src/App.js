@@ -65,7 +65,7 @@ function App() {
     setPrice("")
     setValidateKilo(true)
     setValidateMileage(true)
-    setValidatePrice(true)
+    setValidatePrice(truegit)
   }
 
   return (
