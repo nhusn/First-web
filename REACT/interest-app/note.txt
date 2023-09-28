@@ -1,0 +1,26 @@
+1.step to create react project 
+
+npx create-react-app (interest-app)-folder name
+
+cd (folder name)
+-------------------------------------
+
+  
+			(update cheyyanulla function)
+			|
+const [principle,setprinciple]=useState(0)
+            |			|
+	     |			(react hook-predifined  word to use state)
+	   (state name)
+
+-----------------------------------------------------
+
+-DeStructuring
+
+{key}=object
+
+---------------------------------------------------
+
+Regular expression-to search regular pattern is contain a string
+
+(!!) is help to cnvert regular expression-((/^[0-9]+$/)=to check is it a number?) to boolean
